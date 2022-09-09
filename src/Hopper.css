@@ -1,0 +1,63 @@
+.Navigation {
+    text-align: center;
+    font-family: 'Verdana';
+    font-size: 25px;
+    background-color: rgb(99, 25, 202);
+    padding: 1%;
+    color: white;
+    text-decoration: white;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(97, 31, 203);
+}
+  
+.row {
+    display: flex;
+    margin-top: -40px;
+}
+  
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+}
+
+
+.ImageHeader{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.OuterButton{
+    background-color: #4CAF50;
+    border: none;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding: 16px 32px;
+
+
+}
+
+.Button {
+    background-color: #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Verdana';
+    text-decoration: white;
+  }
+
+.Button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }

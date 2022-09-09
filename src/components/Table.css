@@ -1,0 +1,30 @@
+* {
+    font-family: 'Verdana';
+}
+
+
+
+/*border-collapse: collapse;*/
+table {
+    
+    max-width: 900px;
+    width: 100%;
+    margin: 2rem auto;
+    border-spacing: 0px 3px ;
+    
+}
+table th, table td {
+    border: 2px solid rgb(245, 243, 243);
+    padding: 8px;
+    margin-top: 10px;
+}
+
+
+thead{
+    color: rgb(99, 25, 202);
+}
+
+
+
+
+

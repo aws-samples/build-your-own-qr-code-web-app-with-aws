@@ -1,0 +1,52 @@
+.FormHolder {
+    max-width: 900px;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.LabelTitle{
+    color: rgb(99, 25, 202);
+
+}
+
+.InputBox{
+    border: 2px solid rgb(245, 243, 243);
+    padding: .4%;
+    margin-top: 5px;
+
+}
+
+.ButtonClass{
+    background-color: rgb(99, 25, 202);
+    color: white;
+    font-family: "Verdana";
+    margin-top: 1%;
+    margin-bottom: 2%;
+    display: inline-block;
+    padding: 12px 35px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.ButtonClass:hover {
+    background-color: #b332a6;
+    cursor: pointer;
+}
+
+.ButtonClass:active {
+        background-color: #b332a6;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        cursor: pointer;
+      }
+
+h2{
+
+    color: rgb(99, 25, 202);
+}
