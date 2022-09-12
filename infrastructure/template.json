@@ -97,18 +97,6 @@
         "Type" : "AWS::Cloud9::EnvironmentEC2",
         "Properties": {
             "InstanceType": "t2.micro",
-           "OwnerArn": {
-                "Fn::Join": [
-                    "",
-                    [
-                        "arn:aws:sts::",
-                        {
-                            "Ref": "AWS::AccountId"
-                        },
-                        ":assumed-role/TeamRole/MasterKey"
-                    ]
-                ]
-            },
             "Name": "GHC-Cloud9",
             "Repositories": [ { 
                 "PathComponent": "/GHC",
