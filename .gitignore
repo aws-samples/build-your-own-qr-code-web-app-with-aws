@@ -10,8 +10,6 @@
 
 # production
 /build
-/infrastructure/template.json
-/infrastructure/template2.json
 
 # misc
 .DS_Store
