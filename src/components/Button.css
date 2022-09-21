@@ -13,6 +13,7 @@
     border: 2px solid rgb(245, 243, 243);
     padding: .4%;
     margin-top: 5px;
+    margin-left: 20px;
 
 }
 
@@ -22,6 +23,7 @@
     font-family: "Verdana";
     margin-top: 1%;
     margin-bottom: 2%;
+    margin-left: 20px;
     display: inline-block;
     padding: 12px 35px;
     font-size: 15px;
@@ -49,4 +51,5 @@
 h2{
 
     color: rgb(99, 25, 202);
+    margin-left: 20px;
 }
