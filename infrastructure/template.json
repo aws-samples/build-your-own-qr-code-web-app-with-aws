@@ -32,7 +32,7 @@
           "Role": {
             "Fn::GetAtt": ["GHCLambdaRole","Arn"]
           },
-          "Runtime": "python3.7",
+          "Runtime": "python3.10",
           "Handler": "index.lambda_handler",
           "Code": {
             "ZipFile": "def lambda_handler(event, context):\n  message = \"Replace me with GHC code!\"\n  return message\n"
